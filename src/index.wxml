@@ -1,0 +1,7 @@
+<!--component/rate/rate.wxml-->
+<view class="rates">
+    <view class="rate" wx:for="{{rates}}" wx:key="index" style="margin-right: {{marginRight}}rpx;">
+        <image style="width: {{width}}rpx; height: {{height}}rpx;" src="data:image/svg+xml,{{ item.halfPre ? svgActive : svgDefault }}" catchtap="change" data-index="{{index}}" data-is-pre-half="{{true}}"></image>
+        <image style="width: {{width}}rpx; height: {{height}}rpx;" src="data:image/svg+xml,{{ item.halfNext ? svgActive : svgDefault }}" catchtap="change" data-index="{{index}}" data-is-pre-half="{{false}}"></image>
+    </view>
+</view>

@@ -1,0 +1,23 @@
+/* component/rate/rate.wxss */
+.rates .rate{
+  display: inline-block;
+  width: 16rpx;
+  height: 16rpx;
+  position: relative;
+}
+.rates .rate:last-child{
+  margin-right: 0 !important;
+}
+.rates .rate image{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16rpx;
+  height: 16rpx;
+}
+.rates .rate image:nth-child(1){
+  clip-path: inset(0 8rpx 0 0);
+}
+.rates .rate image:nth-child(2){
+  clip-path: inset(0 0 0 8rpx);
+}
