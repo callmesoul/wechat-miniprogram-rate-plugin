@@ -1,6 +1,6 @@
 {
   "name": "wechat-miniprogram-rate-plugin",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "",
   "main": "miniprogram_dev/index.js",
   "scripts": {
